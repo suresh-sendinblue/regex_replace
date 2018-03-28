@@ -1,0 +1,1 @@
+cmd_Release/regex_replace.node := c++ -bundle -stdlib=libc++ -undefined dynamic_lookup -Wl,-no_pie -Wl,-search_paths_first -mmacosx-version-min=10.7 -arch x86_64 -L./Release  -o Release/regex_replace.node Release/obj.target/regex_replace/regex_replace.o -L/Users/suresh/workspace/c++/boost_1_66_0/lib -L/Users/suresh/workspace/c++/openssl-1.0.2n/lib

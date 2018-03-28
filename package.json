@@ -1,0 +1,16 @@
+{
+  "name": "RegexReplace",
+  "version": "1.0.0",
+  "description": "Regex replace",
+  "main": "test.js",
+  "private": true,
+  "dependencies": {
+    "bindings": "~1.2.1",
+    "nan": "^2.0.0",
+    "re2": "^1.6.1"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "gypfile": true
+}
